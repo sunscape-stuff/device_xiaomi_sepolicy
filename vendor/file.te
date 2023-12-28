@@ -35,3 +35,6 @@ type touchreport_data_file, data_file_type, file_type;
 
 # UFS
 type ufs_sysfs, fs_type, sysfs_type;
+
+# OEM fast charge
+type sysfs_fastcharge, fs_type, sysfs_type;
