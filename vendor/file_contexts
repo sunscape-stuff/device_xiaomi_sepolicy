@@ -75,6 +75,9 @@
 /(odm|vendor/odm|vendor|system/vendor)/bin/tidad@1.1    u:object_r:hal_tidaservice_default_exec:s0
 /(odm|vendor/odm|vendor|system/vendor)/bin/tidad@1.2    u:object_r:hal_tidaservice_default_exec:s0
 
+# Modem
+/data/vendor/modem(/.*)? u:object_r:vendor_modem_data_file:s0
+
 # NFC
 /dev/pn553                                                              u:object_r:nfc_device:s0
 /dev/pn54x                                                              u:object_r:nfc_device:s0
