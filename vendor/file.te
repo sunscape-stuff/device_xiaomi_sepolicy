@@ -23,6 +23,9 @@ type vendor_sysfs_iio, fs_type, sysfs_type;
 
 # Thermal data
 type vendor_thermal_data_file, file_type, data_file_type;
+type sys_thermal_wifi_limit, fs_type, sysfs_type;
+type sys_thermal_flash_state, fs_type, sysfs_type;
+type sys_thermal_torch_real_level, fs_type, sysfs_type;
 
 # Touchfeature
 type proc_tp_file, fs_type, proc_type;
