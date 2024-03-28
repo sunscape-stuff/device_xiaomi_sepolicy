@@ -70,6 +70,8 @@ allow system_app hal_tidaservice_default:fd *;
 # Thermal
 allow system_app vendor_thermal_data_file:dir create_dir_perms;
 allow system_app vendor_thermal_data_file:file create_file_perms;
+allow system_app sys_thermal_flash_state:file { getattr open read watch watch_reads };
+allow system_app sys_thermal_torch_real_level:file { getattr open read watch watch_reads };
 allow system_app sysfs_thermal:file { getattr open read write };
 allow system_app sysfs_thermal:dir search;
 get_prop(system_app, vendor_thermal_normal_prop)

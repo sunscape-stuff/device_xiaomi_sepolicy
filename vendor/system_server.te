@@ -51,6 +51,7 @@ allow system_server vendor_hal_sensorcommunicate_default:binder { call transfer 
 # Thermal
 allow system_server sysfs_thermal:dir search;
 allow system_server sysfs_thermal:file r_file_perms;
+allow system_server sys_thermal_wifi_limit:file { getattr open read watch watch_reads };
 
 # Touchfeature
 allow system_server hal_touchfeature_xiaomi_default:process signal;
