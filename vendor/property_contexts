@@ -115,7 +115,8 @@ persist.vendor.sys.rkp.status                   u:object_r:vendor_payment_securi
 
 # NFC
 persist.vendor.nfc.                             u:object_r:vendor_nfc_prop:s0
-ro.vendor.se.type                               u:object_r:vendor_nfc_prop:s0
+ro.vendor.nfc.                                  u:object_r:vendor_nfc_prop:s0
+ro.vendor.se.                                   u:object_r:vendor_nfc_prop:s0
 
 # Ril
 persist.vendor.radio.imei                       u:object_r:vendor_radio_prop:s0

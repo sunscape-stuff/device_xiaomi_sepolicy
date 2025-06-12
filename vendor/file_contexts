@@ -36,6 +36,7 @@
 
 # HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.ir@1\.0-service\.xiaomi              u:object_r:hal_ir_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.ir-service\.xiaomi                   u:object_r:hal_ir_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.xiaomi               u:object_r:hal_health_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi                u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal     u:object_r:hal_sensors_default_exec:s0
